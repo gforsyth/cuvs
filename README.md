@@ -67,7 +67,7 @@ There are several benefits to using cuVS and GPUs for vector search, including
 6. Multiple language support
 7. Building blocks for composing new or accelerating existing algorithms
 
-In addition to the items above, cuVS takes on the burden of keeping non-trivial accelerated code up to date as new NVIDIA architectures and CUDA versions are released. This provides a deslightful development experimence, guaranteeing that any libraries, databases, or applications built on top of it will always be getting the best performance and scale. 
+In addition to the items above, cuVS takes on the burden of keeping non-trivial accelerated code up to date as new NVIDIA architectures and CUDA versions are released. This provides a delightful development experience, guaranteeing that any libraries, databases, or applications built on top of it will always be getting the best performance and scale.
 
 ## cuVS Technology Stack
 
@@ -109,7 +109,7 @@ pip install cuvs-cu12 --extra-index-url=https://pypi.nvidia.com
 If installing a version that has not yet been released, the `rapidsai` channel can be replaced with `rapidsai-nightly`:
 
 ```bash
-conda install -c conda-forge -c nvidia -c rapidsai-nightly cuvs=24.12
+conda install -c conda-forge -c nvidia -c rapidsai-nightly cuvs=25.02
 ```
 
 cuVS also has `pip` wheel packages that can be installed. Please see the [Build and Install Guide](https://docs.rapids.ai/api/cuvs/nightly/build/) for more information on installing the available cuVS packages and building from source.
